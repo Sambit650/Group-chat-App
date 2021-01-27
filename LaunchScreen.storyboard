@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1WD-4q-Of6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Hox-re-0iD">
+            <objects>
+                <viewController id="1WD-4q-Of6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="39S-Qj-x3Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgu-Ed-6SR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nkT-Be-vji">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJb-lU-y6Z">
+                                <rect key="frame" x="101" y="151" width="173" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="1" green="0.056984322589999997" blue="0.46284519800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.11422566324472427" green="0.050358101725578308" blue="0.89828860759735107" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="igitian" translatesAutoresizingMaskIntoConstraints="NO" id="naP-fr-kmB">
+                                <rect key="frame" x="37" y="225" width="300" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="243" id="ECc-r5-zLR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090310133993625641" green="0.436311274766922" blue="0.42425835132598877" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="naP-fr-kmB" firstAttribute="top" secondItem="tJb-lU-y6Z" secondAttribute="bottom" constant="32" id="ANW-sk-jxu"/>
+                            <constraint firstItem="naP-fr-kmB" firstAttribute="centerX" secondItem="tJb-lU-y6Z" secondAttribute="centerX" id="Wwn-xH-dOE"/>
+                            <constraint firstItem="tJb-lU-y6Z" firstAttribute="top" secondItem="39S-Qj-x3Q" secondAttribute="bottom" constant="131" id="WzK-JS-ezV"/>
+                            <constraint firstItem="tJb-lU-y6Z" firstAttribute="leading" secondItem="nkT-Be-vji" secondAttribute="leadingMargin" constant="85" id="llQ-7X-sZd"/>
+                            <constraint firstItem="cgu-Ed-6SR" firstAttribute="top" secondItem="naP-fr-kmB" secondAttribute="bottom" constant="199" id="rdz-x4-yvN"/>
+                            <constraint firstItem="naP-fr-kmB" firstAttribute="leading" secondItem="nkT-Be-vji" secondAttribute="leadingMargin" constant="21" id="w2a-nZ-Nyd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tJb-lU-y6Z" secondAttribute="trailing" constant="85" id="wNk-WS-iWi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9k-Cv-bpR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="333.28335832083962"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="igitian" width="125.51999664306641" height="106.80000305175781"/>
+    </resources>
+</document>
